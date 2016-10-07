@@ -21,3 +21,9 @@ You can place your own sound in the sounds directory, define your own troll bloc
 	rickroll.chance = 20
 
 People will soon avoid building with cobble stone ;-)
+
+## Other sounds
+
+A basic soundpack for this mod is available at https://github.com/taikedz/minetest-rickroll-sounds
+
+Clone the mod, and copy its sounds into this mod's `sounds` directory.
