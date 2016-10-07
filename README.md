@@ -1,8 +1,6 @@
 # Rick Roller
 
-Troll your players by making a sound play when they place a certain block.
-
-By default, only the nyancat sound is included, for licensing purposes.
+Troll your players by making a sound play when they place a certain block. By default, only a midi-based sampling is provide, to avoid licensing issues.
 
 By default, the sound is played when a player places a `default:mese` block, but this is configurable in minetest.conf:
 
@@ -19,6 +17,9 @@ You can place your own sound in the sounds directory, define your own troll bloc
 
 	rickroll.block = default:cobble
 	rickroll.chance = 20
+	rickroll.sound = mysound
+
+Which would play a sound `mysound.ogg`, or a random choice of `mysound.*.ogg` substituting `*` for a number.
 
 People will soon avoid building with cobble stone ;-)
 
