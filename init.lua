@@ -3,6 +3,7 @@ local trollfreq = tonumber(minetest.setting_get("rickroll.chance")) or 1
 local soundname = minetest.setting_get("rickroll.sound") or "roll"
 
 minetest.register_on_placenode(function(pos, newnode, placer, oldnode, itemstack, pointed_thing)
+	if math.random(1,trollfreq) ~= 1 then return end
 	local name = newnode.name
 	if name == trollname then
 		minetest.sound_play(soundname,{
