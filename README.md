@@ -15,7 +15,7 @@ By default, the sound is played when a player places a `default:mese` block, but
 
 You can place your own sound in the sounds directory, define your own troll block, and determine the frequency at which the sound would be triggered. For example, you might deter cobllestone buildings with:
 
-	rickroll.block = default:cobble
+	rickroll.block = default:cobble,default:desertcobble
 	rickroll.chance = 20
 	rickroll.sound = mysound
 
