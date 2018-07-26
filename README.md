@@ -25,6 +25,6 @@ People will soon avoid building with cobble stone ;-)
 
 ## Other sounds
 
-A basic soundpack for this mod is available at https://github.com/taikedz/minetest-rickroll-sounds
+A basic soundpack for this mod is available at https://github.com/taikedz-mt/rickroll-sounds
 
 Clone the mod, and copy its sounds into this mod's `sounds` directory.
